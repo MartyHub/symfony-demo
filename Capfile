@@ -5,7 +5,7 @@ require "capistrano/setup"
 require "capistrano/deploy"
 
 # Include tasks from other gems included in your Gemfile
-
+require 'capistrano/symfony'
 require 'capistrano/file-permissions'
 
 # For documentation on these, see for example:

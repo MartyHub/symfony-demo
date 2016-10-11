@@ -4,12 +4,6 @@ lock '3.6.1'
 set :application, 'julien-symfony'
 set :repo_url, 'https://github.com/MartyHub/symfony-demo.git'
 
-set :file_permissions_paths, ["web"]
-set :file_permissions_users, ["www-data"]
-
-set :vendors_mode, "install"
-set :use_composer, true
-
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
